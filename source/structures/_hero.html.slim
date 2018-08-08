@@ -1,0 +1,27 @@
+.hero.bg-with-texture.bg-primary.text-white
+  .container
+    .row.hero--header
+      .col.mr-auto.hero--header__contact
+        .hero--header__contact--phone = data.config.contact['phone']
+        .hero--header__contact--email = data.config.contact['email']
+
+      .hero--header__social
+        ul.nav.justify-content-center.hero--header__social--itens
+          - %w(whatsapp facebook github linkedin twitter).each do |social|
+            li.nav-item
+              a.hero--header__social--itens__links href="#{data.config.social[social]}"
+                = partial "shared/svg/#{social}"
+
+    .row.align-items-center
+      .col.text-center
+        h1.display-4.m-0.hero--title
+          small = data.config.name
+          | Full Stack Developer
+
+        .row
+          .hero--preview.lead.text-left.mt-4.col-lg-8.offset-lg-2
+            = data.config.preview
+
+        .hero--links.text-center.mt-5.mb-5
+          = link_to "Currículo", "/curriculo", class: "btn btn-lg btn-light"
+          / = link_to "Contato", "/contato", class: "btn btn-outline-dark ml-4"

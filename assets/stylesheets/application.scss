@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:600|Montserrat:200,400,700');
 
-// @import './core/settings';
+@import './core/settings';
 @import './core/bootstrap';
-// @import './core/type';
+@import './core/type';
+
+@import './overbootstrap/btn';
+
+@import './elements/hero';
+@import './elements/bg';

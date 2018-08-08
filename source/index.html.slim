@@ -1,17 +1,4 @@
-.p-5.bg-light.mb-5
-
-  .col-md-8.offset-md-2
-    h1.display-4.m-0
-      = data.config.name
-    h3 = data.config.nickname
-
-    .hero--preview.lead.text-left.mt-4
-      = data.config.preview
-
-  .mt-5.mb-3.text-center
-    = link_to "Currículo", "/curriculo", class: "btn btn-outline-dark"
-    / = link_to "Contato", "/contato", class: "btn btn-outline-dark ml-4"
-
+= partial 'structures/hero'
 
 .container
   .text-center.mb-5
