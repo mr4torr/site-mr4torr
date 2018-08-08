@@ -9,7 +9,8 @@
     "clear": "rm -rf ./source/javascripts/application.js && rm -rf ./source/stylesheets/application.css",
     "build": "npm run clear && npm run prod",
     "prod": "NODE_ENV=production webpack --optimize-minimize --config ./webpack.config.js --progress --mode production",
-    "watch": "webpack --watch --progress --hide-modules --config ./webpack.config.js --mode development"
+    "watch": "webpack --watch --progress --hide-modules --config ./webpack.config.js --mode development",
+    "copy": "npm run build && cp -r build/* site"
   },
   "dependencies": {
     "babel-core": "^6.26.3",

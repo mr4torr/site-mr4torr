@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const dir_assets = path.resolve(__dirname, 'assets')
-const dir_public = path.resolve(__dirname, 'source')
+const dir_public = path.resolve(__dirname, 'source', 'assets')
 
 
 const rules = [
@@ -50,7 +50,7 @@ const assets = {
         }),
         new CopyWebpackPlugin([
             { from: path.join(__dirname, 'assets', 'images'),
-              to: path.join(__dirname, 'source', 'images')}
+              to: path.join(__dirname, 'source', 'assets', 'images')}
         ])
 
     ],

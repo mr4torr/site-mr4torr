@@ -35,17 +35,17 @@
 
     .col-sm-8
       .row
-        .col = partial "views/shared/items", \
+        .col = partial "shared/items", \
           locals: { \
             title: "Template Engine", \
             items: %w(Slim:Ruby Balde:PHP Pug:NodeJs Pug:Go) }
 
-        .col = partial "views/shared/items", \
+        .col = partial "shared/items", \
           locals: { \
             title: "Compiladores", \
             items: %w(Gulp Webpack) }
 
-        .col = partial "views/shared/items", \
+        .col = partial "shared/items", \
           locals: { \
             title: "Lib/Framework", \
             items: ["ReactJs", "Jquery", "VueJs:em progresso"], \
