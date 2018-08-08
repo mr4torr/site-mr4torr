@@ -26,4 +26,5 @@ middleman server
 
 ```bash
 middleman build
+npm run build
 ```

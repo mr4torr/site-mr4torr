@@ -2,17 +2,21 @@
 
 .container
   .text-center.mb-5
-    h3 Hoje sou desenvolvedor, mas já exerci a função de lider técnico,
-       coordenador, GP e CTO.
+    h2.title-light Hoje sou desenvolvedor! <br/>
+      Mas já exerci a função de lider técnico,
+      coordenador, GP e CTO.
 
     p Fiz alguns cursos complementares como gerenciamento de projeto, scrum,
       UX para web design, SEO e autogerenciamento.
 
-  hr/
 
-  h2.display-4 Front-end
-  .row
-    .col
+  .row.align-items-center.pt-4.pb-4
+    .col-md-4.text-center
+      img.mx-auto src="#{image_path('front-end.svg')}" alt="Front-end" height=300
+    .col-md-1.d-none.d-md-block
+      .divider
+    .col-md-7
+      h2.display-4.text-success.text-center Front-end
       p Trabalho com HTML5 (slim, pug, blade), CSS3 (sass) e javascript (es5).
         Para que tudo funcione perfeitamente utilizo webpack para complicar!
 
@@ -20,51 +24,59 @@
         junto com Redux, mas claro depende muito do projeto. Também estou
         aprendendo VueJs!
 
-    .col-sm-8
-      .row
-        .col = partial "shared/items", \
-          locals: { \
-            title: "Template Engine", \
-            items: %w(Slim:Ruby Balde:PHP Pug:NodeJs Pug:Go) }
+      = partial "shared/items", \
+        locals: { \
+          title: "Compiladores", \
+          items: %w(Gulp Webpack) }
 
-        .col = partial "shared/items", \
-          locals: { \
-            title: "Compiladores", \
-            items: %w(Gulp Webpack) }
+      = partial "shared/items", \
+        locals: { \
+          title: "Lib/Framework", \
+          items: ["ReactJs", "Jquery", "VueJs:em progresso"], \
+          badge_color: 'success' }
 
-        .col = partial "shared/items", \
-          locals: { \
-            title: "Lib/Framework", \
-            items: ["ReactJs", "Jquery", "VueJs:em progresso"], \
-            badge_color: 'info' }
+      = partial "shared/items", \
+        locals: { \
+          title: "Template Engine", \
+          items: %w(Slim:Ruby Balde:PHP Pug:NodeJs Pug:Go) }
 
-  hr/
+.bg-light.mt-4.mb-4
+  .container
+    .row.align-items-center.pt-4.pb-4
+      .col-md-7.order-2.order-md-1
+        h2.display-4.text-success.text-center Back-end
+        p Trabalho com PHP desde 2008 e Ruby desde 2014, não tenho uma linguagem
+          preferida tanto que hoje estou aprendendo Go e Nodejs, pois gostaria de
+          trabalhar com aplicações de alta performance e escalável
 
-  .row
-    .col-7
-      h2.display-4 Back-end
-      p Trabalho com PHP desde 2008 e Ruby desde 2014, não tenho uma linguagem
-        preferida tanto que hoje estou aprendendo Go e Nodejs, pois gostaria de
-        trabalhar com aplicações de alta performance e escalável
+        p <b>PHP:</b> <br/> Por um bom tempo, utilizei um o framework Cakephp mas atualmente
+          todos os projetos de PHP utilizo Laravel.
 
-      p <b>PHP:</b> <br/> Por um bom tempo, utilizei um o framework Cakephp mas atualmente
-        todos os projetos de PHP utilizo Laravel.
+        p <b>RUBY:</b> <br/> Em ruby utilizo Rails e para projetos pequenos e estáticos
+          utilizo middleman.
 
-      p <b>RUBY:</b> <br/> Em ruby utilizo Rails e para projetos pequenos e estáticos
-        utilizo middleman.
+        P <b>CACHE:</b> <br/> Sempre que possível tento utilizar REDIS e MongoDB em algumas
+          aplicações que já utilizam o MongoDB, claro se aplicação exigir cache,
+          se não utilizo o filesystem mesmo.
 
-      P <b>CACHE:</b> <br/> Sempre que possível tento utilizar REDIS e MongoDB em algumas
-        aplicações que já utilizam o MongoDB, claro se aplicação exigir cache,
-        se não utilizo o filesystem mesmo.
+        p <b>BANCO DE DADOS:</b> <br/> Na maioria dos projeto é utilizado Mysql/Maria DB,
+          mas tenho projeto com Postgress e  até mesmo MongoDB.
 
-      p <b>BANCO DE DADOS:</b> <br/> Na maioria dos projeto é utilizado Mysql/Maria DB,
-        mas tenho projeto com Postgress e  até mesmo MongoDB.
+        p <b>JOBS:</b> <br/> Para cuidar do gerenciamento dos jobs em aplicações Rails
+          utilizo sidekiq, já em Laravel utilizo Horizon.
+      .col-md-1.d-none.d-md-block.order-3.order-md-2
+        .divider
+      .col-md-4.order-1.order-md-3.text-center
+        img.mx-auto src="#{image_path('back-end.svg')}" alt="Back-end" height=300
 
-      p <b>JOBS:</b> <br/> Para cuidar do gerenciamento dos jobs em aplicações Rails
-        utilizo sidekiq, já em Laravel utilizo Horizon.
-
-    .col
-      h2.display-4 Infraestrutura
+.container
+  .row.align-items-center.pt-4.pb-4
+    .col-md-4.text-center
+      img.mx-auto src="#{image_path('devops.svg')}" alt="Infraestrutura" height=300
+    .col-md-1.d-none.d-md-block
+      .divider
+    .col-md-7
+      h2.display-4.text-success.text-center Infraestrutura
       p Na parte de infraestrutura, consigo tranquilamente provisionar ambiente
         linux para rodar aplicações web ( tenho familiariedade com AWS e Digital Ocean).
 
@@ -75,3 +87,6 @@
 
       p tenho conhecimento básico de Docker e Ansible, mas suficiente para conseguir \
         configura meus ambientes de desenvolvimento.
+
+
+= partial 'structures/footer'

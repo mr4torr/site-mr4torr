@@ -1,0 +1,13 @@
+.footer.bg-with-texture.bg-primary.text-white.pt-5.pb-4.mt-5
+  .container
+    .row.footer--header
+      .col.mr-auto.footer--header__contact
+        .footer--header__contact--phone = data.config.contact['phone']
+        .footer--header__contact--email = data.config.contact['email']
+
+      .footer--header__social
+        ul.nav.justify-content-center.footer--header__social--itens
+          - %w(whatsapp facebook github linkedin twitter).each do |social|
+            li.nav-item
+              a.hero--header__social--itens__links href="#{data.config.social[social]}" target="blank" rel="nofollow"
+                = partial "shared/svg/#{social}"

@@ -1,9 +1,9 @@
-- color = defined?(badge_color) ? badge_color : 'dark'
-h4 = title
-ul.nav.flex-column
+- color = defined?(badge_color) ? badge_color : 'primary'
+h5.mt-3.mb-0 = title
+ul.nav.nav-pill
   - items.each do |item|
     - item_option = item.split(":")
-    li.nav-item
+    li.nav-item.mr-4
       = item_option[0]
       - if item_option[1]
         small.ml-2.badge[class="badge-#{color}"] = item_option[1]

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 340">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 269">
   <defs>
     <style>
-      .cls-1, .cls-2, .cls-5 {
+      .cls-1, .cls-2 {
         fill: #0c304a;
       }
 
@@ -14,100 +14,94 @@
       }
 
       .cls-5 {
-        font-size: 52px;
-        font-family: OpenSans-Bold, Open Sans;
-        font-weight: 700;
-      }
-
-      .cls-6 {
         fill: url(#pattern);
       }
 
-      .cls-7 {
+      .cls-6 {
         clip-path: url(#clip-path);
       }
 
-      .cls-8 {
+      .cls-7 {
         clip-path: url(#clip-path-2);
       }
 
-      .cls-9 {
+      .cls-8 {
         clip-path: url(#clip-path-3);
       }
 
-      .cls-10 {
+      .cls-9 {
         clip-path: url(#clip-path-4);
       }
 
-      .cls-11 {
+      .cls-10 {
         clip-path: url(#clip-path-5);
       }
 
-      .cls-12 {
+      .cls-11 {
         fill: #fff;
       }
 
-      .cls-13 {
+      .cls-12 {
         clip-path: url(#clip-path-6);
       }
 
-      .cls-14 {
+      .cls-13 {
         clip-path: url(#clip-path-7);
       }
 
-      .cls-15 {
+      .cls-14 {
         clip-path: url(#clip-path-8);
       }
 
-      .cls-16 {
+      .cls-15 {
         clip-path: url(#clip-path-9);
       }
 
-      .cls-17 {
+      .cls-16 {
         clip-path: url(#clip-path-10);
       }
 
-      .cls-18 {
+      .cls-17 {
         clip-path: url(#clip-path-11);
       }
 
-      .cls-19 {
+      .cls-18 {
         clip-path: url(#clip-path-12);
       }
 
-      .cls-20 {
+      .cls-19 {
         fill: #724132;
       }
 
-      .cls-21 {
+      .cls-20 {
         clip-path: url(#clip-path-13);
       }
 
-      .cls-22 {
+      .cls-21 {
         clip-path: url(#clip-path-14);
       }
 
-      .cls-23 {
+      .cls-22 {
         clip-path: url(#clip-path-15);
       }
 
-      .cls-24 {
+      .cls-23 {
         fill: rgba(0,0,0,0.7);
       }
 
-      .cls-25 {
+      .cls-24 {
         clip-path: url(#clip-path-16);
       }
 
-      .cls-26 {
+      .cls-25 {
         clip-path: url(#clip-path-18);
       }
 
-      .cls-27 {
+      .cls-26 {
         fill: #ff4f6c;
       }
 
-      .cls-28 {
+      .cls-27 {
         clip-path: url(#clip-path-20);
       }
     </style>
@@ -169,15 +163,14 @@
       <path id="Path_79" data-name="Path 79" class="cls-3" d="M23.89,14a11,11,0,1,0-11-11A11,11,0,0,0,23.89,14Z"/>
     </clipPath>
   </defs>
-  <g id="front-end" transform="translate(-489 -1031)">
-    <text id="Front-end-2" data-name="Front-end" class="cls-5" transform="translate(617 1356)"><tspan x="-127.296" y="0">Front-end</tspan></text>
+  <g id="front-end" transform="translate(-517 -1031)">
     <g id="front" transform="translate(25 -180)">
-      <path id="Path_7" data-name="Path 7" class="cls-6" d="M0,0H200V244H0Z" transform="translate(492 1236)"/>
+      <path id="Path_7" data-name="Path 7" class="cls-5" d="M0,0H200V244H0Z" transform="translate(492 1236)"/>
       <g id="Group_10" data-name="Group 10" transform="translate(492 1478.803)">
-        <g id="Group_9" data-name="Group 9" class="cls-7">
-          <g id="Group_8" data-name="Group 8" class="cls-8">
-            <g id="Group_7" data-name="Group 7" class="cls-9">
-              <g id="Group_6" data-name="Group 6" class="cls-10">
+        <g id="Group_9" data-name="Group 9" class="cls-6">
+          <g id="Group_8" data-name="Group 8" class="cls-7">
+            <g id="Group_7" data-name="Group 7" class="cls-8">
+              <g id="Group_6" data-name="Group 6" class="cls-9">
                 <path id="Path_8" data-name="Path 8" class="cls-2" d="M-37,5H237V-115H-37Z"/>
               </g>
             </g>
@@ -185,49 +178,49 @@
         </g>
       </g>
       <g id="Group_15" data-name="Group 15" transform="translate(574 1473)">
-        <g id="Group_11" data-name="Group 11" class="cls-11">
-          <path id="Path_12" data-name="Path 12" class="cls-12" d="M-5,5H44V-47H-5Z"/>
+        <g id="Group_11" data-name="Group 11" class="cls-10">
+          <path id="Path_12" data-name="Path 12" class="cls-11" d="M-5,5H44V-47H-5Z"/>
         </g>
-        <g id="Group_12" data-name="Group 12" class="cls-13">
-          <path id="Path_14" data-name="Path 14" class="cls-12" d="M2-8H21V-32H2Z"/>
+        <g id="Group_12" data-name="Group 12" class="cls-12">
+          <path id="Path_14" data-name="Path 14" class="cls-11" d="M2-8H21V-32H2Z"/>
         </g>
-        <g id="Group_13" data-name="Group 13" class="cls-14">
-          <path id="Path_16" data-name="Path 16" class="cls-12" d="M15-11H34V-34H15Z"/>
+        <g id="Group_13" data-name="Group 13" class="cls-13">
+          <path id="Path_16" data-name="Path 16" class="cls-11" d="M15-11H34V-34H15Z"/>
         </g>
-        <g id="Group_14" data-name="Group 14" class="cls-15">
-          <path id="Path_18" data-name="Path 18" class="cls-12" d="M10-2H27V-20H10Z"/>
+        <g id="Group_14" data-name="Group 14" class="cls-14">
+          <path id="Path_18" data-name="Path 18" class="cls-11" d="M10-2H27V-20H10Z"/>
         </g>
       </g>
       <g id="Group_73" data-name="Group 73" transform="translate(529 1299.853)">
-        <g id="Group_72" data-name="Group 72" class="cls-16">
-          <g id="Group_71" data-name="Group 71" class="cls-17">
-            <g id="Group_70" data-name="Group 70" class="cls-18">
-              <g id="Group_69" data-name="Group 69" class="cls-19">
-                <path id="Path_65" data-name="Path 65" class="cls-20" d="M-74,173H200V-117H-74Z"/>
+        <g id="Group_72" data-name="Group 72" class="cls-15">
+          <g id="Group_71" data-name="Group 71" class="cls-16">
+            <g id="Group_70" data-name="Group 70" class="cls-17">
+              <g id="Group_69" data-name="Group 69" class="cls-18">
+                <path id="Path_65" data-name="Path 65" class="cls-19" d="M-74,173H200V-117H-74Z"/>
               </g>
             </g>
           </g>
         </g>
       </g>
       <g id="Group_83" data-name="Group 83" transform="translate(572 1368)">
-        <g id="Group_82" data-name="Group 82" class="cls-21">
-          <g id="Group_81" data-name="Group 81" class="cls-22">
-            <g id="Group_74" data-name="Group 74" class="cls-23">
-              <path id="Path_69" data-name="Path 69" class="cls-24" d="M-5,5H42.787V-24H-5Z"/>
+        <g id="Group_82" data-name="Group 82" class="cls-20">
+          <g id="Group_81" data-name="Group 81" class="cls-21">
+            <g id="Group_74" data-name="Group 74" class="cls-22">
+              <path id="Path_69" data-name="Path 69" class="cls-23" d="M-5,5H42.787V-24H-5Z"/>
             </g>
-            <g id="Group_76" data-name="Group 76" class="cls-25">
-              <g id="Group_75" data-name="Group 75" class="cls-23">
-                <path id="Path_71" data-name="Path 71" class="cls-12" d="M-1.11-9h41V-35h-41Z"/>
+            <g id="Group_76" data-name="Group 76" class="cls-24">
+              <g id="Group_75" data-name="Group 75" class="cls-22">
+                <path id="Path_71" data-name="Path 71" class="cls-11" d="M-1.11-9h41V-35h-41Z"/>
               </g>
             </g>
-            <g id="Group_78" data-name="Group 78" class="cls-26">
-              <g id="Group_77" data-name="Group 77" class="cls-23">
-                <path id="Path_74" data-name="Path 74" class="cls-27" d="M-2.11,19h32V-13h-32Z"/>
+            <g id="Group_78" data-name="Group 78" class="cls-25">
+              <g id="Group_77" data-name="Group 77" class="cls-22">
+                <path id="Path_74" data-name="Path 74" class="cls-26" d="M-2.11,19h32V-13h-32Z"/>
               </g>
             </g>
-            <g id="Group_80" data-name="Group 80" class="cls-28">
-              <g id="Group_79" data-name="Group 79" class="cls-23">
-                <path id="Path_77" data-name="Path 77" class="cls-27" d="M7.89,19h32V-13h-32Z"/>
+            <g id="Group_80" data-name="Group 80" class="cls-27">
+              <g id="Group_79" data-name="Group 79" class="cls-22">
+                <path id="Path_77" data-name="Path 77" class="cls-26" d="M7.89,19h32V-13h-32Z"/>
               </g>
             </g>
           </g>

@@ -9,7 +9,7 @@
         ul.nav.justify-content-center.hero--header__social--itens
           - %w(whatsapp facebook github linkedin twitter).each do |social|
             li.nav-item
-              a.hero--header__social--itens__links href="#{data.config.social[social]}"
+              a.hero--header__social--itens__links href="#{data.config.social[social]}" target="blank" rel="nofollow"
                 = partial "shared/svg/#{social}"
 
     .row.align-items-center

@@ -1,15 +1,22 @@
 
 $primary: #0C304A;
 
-$text: #6D8393;
-$text-dark: $primary;
+$body-color: #6D8393;
+$body-bg: #FFF;
+$body-bg-dark: #f9f9f9;
 
-$bg-dark: #f9f9f9;
-
+$link-color: $primary;
 
 $font-family-sans-serif: 'Open Sans', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 $headings-font-family: 'Open Sans Condensed', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $headings-font-weight: 700;
+$headings-color: $primary;
+
 
 $font-weight-bold: 600;
+
+$border-color: #C9D0D6;
+
+$badge-padding-x: 1em;
+$badge-border-radius: 2rem;
