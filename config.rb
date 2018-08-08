@@ -23,7 +23,7 @@ end
 activate :gzip
 # activate :minify_javascript
 activate :directory_indexes
-activate :asset_hash, :exts => ['.css', '.png', '.jpg', '.gif', '.js']
+# activate :asset_hash, :exts => ['.css', '.png', '.jpg', '.gif', '.js']
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
