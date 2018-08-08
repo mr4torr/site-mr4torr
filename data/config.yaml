@@ -1,0 +1,54 @@
+name: Mailon Torres
+nickname: "@mr4torr"
+preview: "Desenvolvedor full-stack desde 2008, trabalho principalmente com as linguagens HTML, CSS, JAVASCRIPT, PHP e RUBY para o desenvolvimento de site e sistemas web. \n \n Proficiente em UX, SEO, metodologia ágil como SCRUM e Kanban."
+meta:
+  title: Mailon Rafael Andrade Torres
+  description: Mailon Rafael Andrade Torres
+  image: 'mailon-torres.jpg'
+address: "Joinville, SC"
+contact:
+  phone: "(54) 9 9984-9902"
+  email: "mailontorres@gmail.com"
+  github: "www.github.com/mr4torr"
+  linkedin: www.linkedin.com/in/mailontorres
+social:
+  whatsapp: "(54) 9 9984-9902"
+  facebook: https://www.facebook.com/mailonzuliana
+  github: https://github.com/mr4torr
+education: "Tenho ensino médio completo e iniciei o ensino superior em Analise e Desenvolvimento de Sistema. \n \n
+Infelizmente tive que parar, pois estava em processo de mudança de Canela/RS para Joinville/SC ( cidade que resido hoje ), mas pretendo retornar logo."
+courses: "Já fiz alguns cursos complementares como gerenciamento de projeto, scrum, UX para web design, SEO e autogerenciamento. \n \n
+Tenho outros cursos como vuejs, go lang (um pouco mais avançado) e typescript que pretendo iniciar logo!"
+skills:
+  strong:
+    - HTML5
+    - CSS3
+    - Javascript
+    - Jquery
+    - PHP
+    - Ruby
+    - Laravel
+    - Rails
+    - Git
+    - Linux
+    - Mysql
+    - CakePHP
+    - Nginx
+  middle:
+    - Reactjs
+    - Redux
+    - Docker
+    - Ansible
+    - Backbone
+    - MongoDB
+    - Postgres
+    - UX
+    - SEO
+    - Scrum
+    - Kanban
+    - Apache
+    - Let's encrypt
+  small:
+    - Go Lang
+    - VueJs
+    - NodeJs

@@ -1,0 +1,9 @@
+- color = defined?(badge_color) ? badge_color : 'dark'
+h4 = title
+ul.nav.flex-column
+  - items.each do |item|
+    - item_option = item.split(":")
+    li.nav-item
+      = item_option[0]
+      - if item_option[1]
+        small.ml-2.badge[class="badge-#{color}"] = item_option[1]

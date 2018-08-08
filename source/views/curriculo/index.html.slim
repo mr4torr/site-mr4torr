@@ -1,0 +1,57 @@
+.bg-light.p-4.mb-3
+  .container
+    .row
+      .col-lg-2.col-md-3.col-sm-4.text-center
+        img.img-fluid.mt-4 src="#{image_path(data.config.meta['image'])}" alt="#{data.config.name}"
+      .col-sm
+        h1 = data.config.name
+        p = data.config.preview
+
+        .row
+          .col
+            p
+              br
+              = data.config.contact['github']
+              br
+              = data.config.contact['linkedin']
+          .col.text-right
+            p
+              = data.config.address
+              br
+              = data.config.contact['phone']
+              br
+              = data.config.contact['email']
+
+.container
+  h2.display-4.ml-3 Experiência
+  - data.experiences.each do |experience|
+    = partial 'views/shared/experience', locals: { experience: experience }
+
+  h2.display-4.mb-2.ml-3 Habilidades
+  .row
+    .col
+      .bg-light.p-3.mb-3
+        h3.m-0 Forte
+        p.d-block.text-muted Utilizo frequentemente
+        p = data.config.skills['strong'].join(', ')
+    .col
+      .bg-light.p-3.mb-3
+        h3.m-0 Conhecedor
+        p.d-block.text-muted Utilizo/já utilizei em alguns projetos
+        p = data.config.skills['middle'].join(', ')
+  .pl-3
+    h4 Aprendendo....
+    p = data.config.skills['small'].join(', ')
+
+  hr.mt-5.mb-5
+
+  .row
+    .col
+      .bg-light.p-3.mb-3
+        h2.display-4 Educação
+        = data.config.education
+
+    .col
+      .bg-light.p-3.mb-3
+        h2.display-4 Cursos
+        = data.config.courses

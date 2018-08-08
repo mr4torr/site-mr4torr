@@ -1,0 +1,28 @@
+- page_title = data.config.meta['title']
+
+- if content_for?(:page_title)
+  - page_title = yield_content(:page_title) + ", " + page_title
+
+- meta_description = data.config.meta['description']
+- if content_for?(:meta_description)
+  - meta_description = yield_content(:meta_description)
+
+- meta_image = data.config.meta['image']
+- if content_for?(:meta_image)
+  - meta_image = yield_content(:meta_image)
+
+title = page_title
+meta[charset="utf-8"]
+meta[property="og:title" content="#{page_title}"]
+meta[property="og:image" content="#{meta_image}"]
+meta[property="og:site_name" content="#{data.config.meta['name']}"]
+meta[property="og:description" content="#{meta_description}"]
+meta[property="og:url" content="#{config[:host] + current_page.url}"]
+meta[content="index,follow" name="robots"]
+meta[content="#CC0000" name="theme-color"]
+meta[http-equiv="X-UA-Compatible" content="IE=edge"]
+meta[name="description" content="#{meta_description}"]
+meta[name="viewport" content="initial-scale=1.0, maximum-scale=1.0"]
+meta[name="author" content="@mr4torr - Mailon Rafael Andrade Torres "]
+meta[content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"]
+link[href="#{config[:host]+current_page.url}" rel="canonical"]

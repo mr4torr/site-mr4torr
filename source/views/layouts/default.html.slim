@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+html lang="en"
+  head
+
+    = partial "views/structures/meta"
+    = stylesheet_link_tag "application"
+
+    body
+      = yield
+
+      = javascript_include_tag "application"
+      = yield_content(:javascripts)

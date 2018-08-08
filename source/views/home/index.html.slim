@@ -1,0 +1,90 @@
+.p-5.bg-light.mb-5
+
+  .col-md-8.offset-md-2
+    h1.display-4.m-0
+      = data.config.name
+    h3 = data.config.nickname
+
+    .hero--preview.lead.text-left.mt-4
+      = data.config.preview
+
+  .mt-5.mb-3.text-center
+    = link_to "Currículo", "/curriculo", class: "btn btn-outline-dark"
+    / = link_to "Contato", "/contato", class: "btn btn-outline-dark ml-4"
+
+
+.container
+  .text-center.mb-5
+    h3 Hoje sou desenvolvedor, mas já exerci a função de lider técnico,
+       coordenador, GP e CTO.
+
+    p Fiz alguns cursos complementares como gerenciamento de projeto, scrum,
+      UX para web design, SEO e autogerenciamento.
+
+  hr/
+
+  h2.display-4 Front-end
+  .row
+    .col
+      p Trabalho com HTML5 (slim, pug, blade), CSS3 (sass) e javascript (es5).
+        Para que tudo funcione perfeitamente utilizo webpack para complicar!
+
+      p Já desenvolvi com backbonejs, mas hoje prefiro trabalhar com ReactJs
+        junto com Redux, mas claro depende muito do projeto. Também estou
+        aprendendo VueJs!
+
+    .col-sm-8
+      .row
+        .col = partial "views/shared/items", \
+          locals: { \
+            title: "Template Engine", \
+            items: %w(Slim:Ruby Balde:PHP Pug:NodeJs Pug:Go) }
+
+        .col = partial "views/shared/items", \
+          locals: { \
+            title: "Compiladores", \
+            items: %w(Gulp Webpack) }
+
+        .col = partial "views/shared/items", \
+          locals: { \
+            title: "Lib/Framework", \
+            items: ["ReactJs", "Jquery", "VueJs:em progresso"], \
+            badge_color: 'info' }
+
+  hr/
+
+  .row
+    .col-7
+      h2.display-4 Back-end
+      p Trabalho com PHP desde 2008 e Ruby desde 2014, não tenho uma linguagem
+        preferida tanto que hoje estou aprendendo Go e Nodejs, pois gostaria de
+        trabalhar com aplicações de alta performance e escalável
+
+      p <b>PHP:</b> <br/> Por um bom tempo, utilizei um o framework Cakephp mas atualmente
+        todos os projetos de PHP utilizo Laravel.
+
+      p <b>RUBY:</b> <br/> Em ruby utilizo Rails e para projetos pequenos e estáticos
+        utilizo middleman.
+
+      P <b>CACHE:</b> <br/> Sempre que possível tento utilizar REDIS e MongoDB em algumas
+        aplicações que já utilizam o MongoDB, claro se aplicação exigir cache,
+        se não utilizo o filesystem mesmo.
+
+      p <b>BANCO DE DADOS:</b> <br/> Na maioria dos projeto é utilizado Mysql/Maria DB,
+        mas tenho projeto com Postgress e  até mesmo MongoDB.
+
+      p <b>JOBS:</b> <br/> Para cuidar do gerenciamento dos jobs em aplicações Rails
+        utilizo sidekiq, já em Laravel utilizo Horizon.
+
+    .col
+      h2.display-4 Infraestrutura
+      p Na parte de infraestrutura, consigo tranquilamente provisionar ambiente
+        linux para rodar aplicações web ( tenho familiariedade com AWS e Digital Ocean).
+
+      p Fazer configuração de let's encrypt
+
+      p Conheço linux o suficiente para saber que não posso fazer 'sudo rm -r /' e \
+        nem aplicar chmod 777 em qualquer pasta.
+
+      p tenho conhecimento básico de Docker e Ansible, mas suficiente para conseguir \
+        configura meus ambientes de desenvolvimento.

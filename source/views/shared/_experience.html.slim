@@ -1,0 +1,11 @@
+.p-3.experience
+  h3.m-0
+    = experience.title
+  p.d-block
+    = experience.company
+    span.ml-2.badge.badge-dark = experience.period
+  p = experience.description
+  p.small.text-muted
+    b Tecnologias:
+    = experience.skills.join(', ')
+hr/
