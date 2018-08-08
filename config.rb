@@ -10,6 +10,8 @@ set :fonts_dir, "assets/fonts"
 
 set :layout, "layouts/default.html"
 
+ignore "shared/*"
+
 configure :development do
   config[:host] = ENV['site_url_development']
 end
