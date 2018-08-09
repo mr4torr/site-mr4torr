@@ -1,5 +1,5 @@
 ---
-- title: Full-stack developer
+- title: Desenvolvedor full-stack
   company: Plinc Turismo
   period: Out/2017 - PRESENTE
   description: "Desenvolvimento da plataforma Tour Channel. Coordeno uma pequena equipe e sou responsável pelo desenvolvimento de micros-serviços ( gestão de sites, pagamentos e serviços)"
@@ -16,7 +16,7 @@
     - MongoDB
     - Nginx
     - Let's encrypt
-- title: Full-stack developer, Coordenador, GP e CTO
+- title: Desenvolvedor full-stack, Coordenador, GP e CTO
   company: Orgânica Digital
   period: Ago/2014 - Out/2017
   description: As funções foram exercidas no modo evolutivo, mas grande parte do período estava desenvolvendo. Foram desenvolvidos inúmeros projetos, desde sites institucionais, ecommerce, integração com ERPs e SAS para startups, sendo 2 pré-selecionadas na StartupRS de 2016.
@@ -35,7 +35,7 @@
     - Nginx
     - Middleman
     - Laravel
-- title: Sócio e Full-stack developer
+- title: Sócio e Desenvolvedor full-stack
   company: Mega Internet
   period: Jan/2012 - Ago/2014
   description: Desenvolvimento de sites e aplicações web com PHP e comecei a desenvolver alguns projetos com Ruby on Rails
@@ -51,7 +51,7 @@
     - Backbone
     - Jquery
     - Nginx
-- title: Full-stack developer
+- title: Desenvolvedor full-stack
   company: Portal Gramado
   period: Mar/2009 - Jan/2012
   description: Responsável pelo desenvolvimento e evoluções dos portais do Grupo Portal Gramado

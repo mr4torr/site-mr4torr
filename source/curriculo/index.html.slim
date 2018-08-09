@@ -2,19 +2,19 @@
   .container
     .row
       .col-lg-2.col-md-3.col-sm-4.text-center
-        img.img-fluid.mt-4 src="#{image_path(data.config.meta['image'])}" alt="#{data.config.name}"
+        img.img-fluid.mt-4.mb-4 src="#{image_path(data.config.meta['image'])}" alt="#{data.config.name}"
       .col-sm
-        h1 = data.config.name
-        p = data.config.preview
+        h1.text-center.text-md-left = data.config.name
+        p.text-justify = data.config.preview
 
         .row
-          .col
+          .col.text-center.text-md-left
             p
               br
               = data.config.contact['github']
               br
               = data.config.contact['linkedin']
-          .col.text-right
+          .col.text-center.text-md-right
             p
               = data.config.address
               br
@@ -29,12 +29,12 @@
 
   h2.display-4.mb-2.ml-3 Habilidades
   .row
-    .col
+    .col-md-6
       .bg-light.p-3.mb-3
         h3.m-0 Forte
         p.d-block.text-muted Utilizo frequentemente
         p = data.config.skills['strong'].join(', ')
-    .col
+    .col-md-6
       .bg-light.p-3.mb-3
         h3.m-0 Conhecedor
         p.d-block.text-muted Utilizo/já utilizei em alguns projetos
@@ -46,12 +46,12 @@
   hr.mt-5.mb-5
 
   .row
-    .col
+    .col-md-6
       .bg-light.p-3.mb-3
         h2.display-4 Educação
-        = data.config.education
+        p.text-justify = data.config.education
 
-    .col
+    .col-md-6
       .bg-light.p-3.mb-3
         h2.display-4 Cursos
-        = data.config.courses
+        p.text-justify = data.config.courses

@@ -1,11 +1,16 @@
 .p-3.experience
-  h3.m-0
-    = experience.title
-  p.d-block
-    = experience.company
-    span.ml-2.badge.badge-dark = experience.period
-  p = experience.description
-  p.small.text-muted
-    b Tecnologias:
-    = experience.skills.join(', ')
+  .row.align-items-center
+    .col-md-4.text-center
+      h3.m-0 = experience.title
+      p.d-block
+        = experience.company
+        span.ml-2.badge.badge-primary = experience.period
+    .col-md-1.d-none.d-md-block
+      .divider
+    .col-md-7
+      p.text-justify = experience.description
+      p.small.text-muted
+        b Tecnologias:
+        br
+        = experience.skills.join(', ')
 hr/
