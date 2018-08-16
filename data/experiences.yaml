@@ -1,25 +1,30 @@
 ---
 - title: Desenvolvedor full-stack
   company: Plinc Turismo
-  period: Out/2017 - PRESENTE
-  description: "Desenvolvimento da plataforma Tour Channel. Coordeno uma pequena equipe e sou responsável pelo desenvolvimento de micros-serviços ( gestão de sites, pagamentos e serviços)"
+  period: Out/2017 - Jul/2018
+  description: "Desenvolvimento da plataforma Tour Channel. Coordenei uma pequena equipe e era responsável pelo desenvolvimento dos micro-serviços ( gestão de sites, API, pagamentos e gestão de serviços)"
   skills:
     - PHP
     - Mysql
     - HTML
     - JS
     - CSS
+    - SASS
     - Laravel
     - Jquery
     - ReactJS
+    - Redux
     - Redis
     - MongoDB
     - Nginx
+    - Webpack
+    - Gulp
     - Let's encrypt
+    - Docker
 - title: Desenvolvedor full-stack, Coordenador, GP e CTO
   company: Orgânica Digital
   period: Ago/2014 - Out/2017
-  description: As funções foram exercidas no modo evolutivo, mas grande parte do período estava desenvolvendo. Foram desenvolvidos inúmeros projetos, desde sites institucionais, ecommerce, integração com ERPs e SAS para startups, sendo 2 pré-selecionadas na StartupRS de 2016.
+  description: As funções foram exercidas no modo evolutivo, mas grande parte do período estava desenvolvendo. Foram desenvolvidos inúmeros projetos, desde sites institucionais, ecommerce, integração com ERPs e Saas para startups, sendo 2 pré-selecionadas na StartupRS de 2016.
   skills:
     - Ruby
     - Rails
@@ -29,12 +34,15 @@
     - Postgres
     - JS
     - CSS
+    - SASS
     - Jquery
     - Redis
     - MongoDB
     - Nginx
+    - Gulp
     - Middleman
     - Laravel
+    - Docker
 - title: Sócio e Desenvolvedor full-stack
   company: Mega Internet
   period: Jan/2012 - Ago/2014

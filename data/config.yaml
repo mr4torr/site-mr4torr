@@ -31,6 +31,7 @@ skills:
     - PHP
     - Ruby
     - Laravel
+    - Lumen
     - Rails
     - Git
     - Linux
@@ -51,6 +52,8 @@ skills:
     - Kanban
     - Apache
     - Let's encrypt
+    - Webpack
+    - Gulp
   small:
     - Go Lang
     - VueJs
